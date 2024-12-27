@@ -11,7 +11,6 @@ public class WebDriverHelper {
     // Declare WebDriver as static
     private static WebDriver driver;
 
-    // Method to initialize the WebDriver
     public static WebDriver getDriver() {
         if (driver == null) {
             System.setProperty("webdriver.chrome.driver", "/Users/gopi/Downloads/chromedriver-mac-arm64/chromedriver");
